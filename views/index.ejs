@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro & Pet Floriani</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <div class="logo-container">
+                    <img src="/images/logo.jpg" alt="Agro & Pet Floriani Logo">
+                </div>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Localização</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/happyDog.jpg" class="d-block w-100" alt="Cachorros">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/lazyCat.jpg" class="d-block w-100" alt="Gatos">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/gardening.jpg" class="d-block w-100" alt="Jardinagem e Pesca">
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-overlay">
+            <h1 class="hero-title">Agro & Pet Floriani</h1>
+            <p class="hero-subtitle">Qualidade e carinho para o seu pet e seu jardim. Tudo o que você precisa em um só
+                lugar.</p>
+            <a href="https://wa.me/554732736052?text=Olá,%20gostaria%20de%20fazer%20um%20pedido!" target="_blank"
+                class="btn btn-whatsapp">
+                <i class="fab fa-whatsapp"></i> FAÇA SEU PEDIDO AGORA
+            </a>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="services" class="py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Nossos Departamentos</h2>
+                <p class="text-muted">Tudo o que você precisa para o seu hobby e para o seu melhor amigo.</p>
+            </div>
+            <div class="row g-4">
+                <!-- Pet Shop -->
+                <div class="col-md-4">
+                    <div class="service-card text-center">
+                        <div class="icon-box mb-3">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <h3>Pet Shop</h3>
+                        <p class="text-muted">Rações premium, brinquedos, acessórios e medicamentos para cães e gatos.
+                        </p>
+                        <a href="https://wa.me/554732736052?text=Olá,%20gostaria%20de%20saber%20sobre%20produtos%20Pet!"
+                            target="_blank" class="btn btn-outline-success rounded-pill mt-3">Ver Produtos</a>
+                    </div>
+                </div>
+                <!-- Jardinagem -->
+                <div class="col-md-4">
+                    <div class="service-card text-center">
+                        <div class="icon-box mb-3">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Jardinagem</h3>
+                        <p class="text-muted">Sementes, adubos, ferramentas e tudo para deixar seu jardim mais verde.
+                        </p>
+                        <a href="https://wa.me/554732736052?text=Olá,%20gostaria%20de%20saber%20sobre%20Jardinagem!"
+                            target="_blank" class="btn btn-outline-success rounded-pill mt-3">Ver Produtos</a>
+                    </div>
+                </div>
+                <!-- Pesca -->
+                <div class="col-md-4">
+                    <div class="service-card text-center">
+                        <div class="icon-box mb-3">
+                            <i class="fas fa-fish"></i>
+                        </div>
+                        <h3>Pesca & Camping</h3>
+                        <p class="text-muted">Varas, molinetes, iscas e acessórios completos para sua pescaria.</p>
+                        <a href="https://wa.me/554732736052?text=Olá,%20gostaria%20de%20saber%20sobre%20Pesca!"
+                            target="_blank" class="btn btn-outline-success rounded-pill mt-3">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Info Section -->
+    <section id="location" class="info-section">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="info-card">
+                        <h2 class="mb-4">Visite Nossa Loja</h2>
+                        <ul class="list-unstyled">
+                            <li class="mb-3"><i class="fas fa-map-marker-alt text-success me-2"></i> R. Pref. José
+                                Bauer, 1340 - Rau, Jaraguá do Sul - SC, 89254-700</li>
+                            <li class="mb-3"><i class="fas fa-phone text-success me-2"></i> (47) 3273-6052</li>
+                        </ul>
+
+                        <h4 class="mt-4 mb-3">Horário de Funcionamento</h4>
+                        <table class="hours-table w-100">
+                            <tr>
+                                <td>Segunda - Sexta</td>
+                                <td>08:00 – 18:30</td>
+                            </tr>
+                            <tr>
+                                <td>Sábado</td>
+                                <td>08:00 – 12:00</td>
+                            </tr>
+                            <tr>
+                                <td>Domingo</td>
+                                <td>Fechado</td>
+                            </tr>
+                        </table>
+
+                        <div class="delivery-badge w-100 text-center">
+                            <i class="fas fa-truck me-2"></i> ENTREGA GRÁTIS NA REGIÃO
+                        </div>
+
+                        <div class="mt-4 text-center">
+                            <a href="https://wa.me/554732736052?text=Olá,%20gostaria%20de%20fazer%20um%20pedido!"
+                                target="_blank" class="btn btn-whatsapp w-100">
+                                <i id="contact" class="fab fa-whatsapp"></i> Fale Conosco no WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.495208573934!2d-49.10271792496735!3d-26.4716766769062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94de930030000001%3A0x1234567890abcdef!2sR.%20Pref.%20Jos%C3%A9%20Bauer%2C%201340%20-%20Rau%2C%20Jaragu%C3%A1%20do%20Sul%20-%20SC%2C%2089254-700!5e0!3m2!1spt-BR!2sbr!4v1674020000000!5m2!1spt-BR!2sbr"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="mb-0">© 2026 Agro & Pet Floriani. Todos os direitos reservados.</p>
+            <small>Desenvolvido por <a href="https://pierrejr.com" target="_blank">Pierre Jr.</a></small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Navbar transparency on scroll
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+                navbar.style.boxShadow = '0 2px 15px rgba(0,0,0,0.1)';
+            } else {
+                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+                navbar.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
